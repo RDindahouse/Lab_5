@@ -122,17 +122,17 @@ void Trapezoid::get()
 
 void Trapezoid::display()
 {
-    cout << "triangle area: " << S << endl;
-    cout << "triangle perimeter: " << P << endl;
+    cout << "trapezoid area: " << S << endl;
+    cout << "trapezoid perimeter: " << P << endl;
 }
 
 void Trapezoid::Area()
-{ // Площадь параллелепипеда
+{
     S = (a + b) / 2 * sqrt(pow(c, 2) - ((pow(b - a, 2) + pow(c, 2) - pow(d, 2)) / (2 * (b - a))));
 }
 
 void Trapezoid::perimeter()
-{ // Периметр треугольника
+{
     P = a + b + c + d;
 }
 
