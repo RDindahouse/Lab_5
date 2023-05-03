@@ -52,13 +52,13 @@ public:
         return V;
     }
 
-    void display() const{
+    void display() const
+    {
         cout << "first edge: " << a << endl;
         cout << "second edge: " << b << endl;
         cout << "third edge: " << c << endl;
         cout << "Volume: " << V << endl;
         cout << "Area: " << S << endl;
-
     }
 
     void set()
@@ -143,10 +143,10 @@ public:
         return V <= other.V;
     }
 };
-    int main()
-    {
-        Parallelepiped n1;
-        double result;
-        n1.set();
-        n1.display();
-    }
+int main()
+{
+    Parallelepiped n1;
+    double result;
+    n1.set();
+    n1.display();
+}
